@@ -37,10 +37,25 @@ string Car::getModel()
 }
 
 //Functions setter
-void Car::setColor(string newColor) { color = newColor; }
-void Car::setYear(int newYear) { year = newYear; }
-void Car::setMake(string newMake) { make = newMake; }
-void Car::setModel(string newModel) { model = newModel; }
+void Car::setColor(string newColor) 
+{ 
+	color = newColor; 
+}
+
+void Car::setYear(int newYear) 
+{ 
+	year = newYear; 
+}
+
+void Car::setMake(string newMake) 
+{ 
+	make = newMake; 
+}
+
+void Car::setModel(string newModel) 
+{ 
+	model = newModel; 
+}
 
 //Function print()
 void Car::print()
