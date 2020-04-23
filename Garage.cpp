@@ -46,8 +46,10 @@ bool Garage::operator==(Garage& obj)
 }
 
 //Function to add a new element to vehicles
-//Note that new dynamic memory needs to be allocated correctly 
-//for a Vehicle object or for a Car object based on the value of the boolean variable passed in.
+//Note that new dynamic memory needs to be allocated correctly
+//For a Vehicle object or for a Car object based on the value of the boolean variable passed in. 
+
+//Use Downcasting Here: (Car&)
 bool Garage::addVehicle(Vehicle& obj, bool isACar)
 {
     if (numOfVehicles < 100)
