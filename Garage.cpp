@@ -54,7 +54,7 @@ bool Garage::addVehicle(Vehicle& obj, bool isACar)
     {
         if (isACar)
         {
-            vehicles[numOfVehicles] = new Vehicle(obj);
+            vehicles[numOfVehicles] = new Car((Car&) obj);
             numOfVehicles++;
             return true;
         }

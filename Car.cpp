@@ -15,6 +15,12 @@ Car::Car(string NewRegID, string newColor, int newYear, string newMake, string n
 
 }
 
+//Destructor
+Car::~Car()
+{
+
+}
+
 //Functions getter
 string Car::getColor()
 { 

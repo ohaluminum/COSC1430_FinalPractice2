@@ -18,6 +18,9 @@ public:
 
 	//Parameterized constructor
 	Car(string NewRegID, string newColor, int newYear, string newMake, string newModel);
+
+	//Destructor
+	~Car();
 	
 	//Functions getter
 	string getColor();
